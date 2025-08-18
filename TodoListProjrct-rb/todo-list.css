@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  color: #2d3748;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.7fr fr;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.todo-input-grid {
+  margin-bottom: 16px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input,
+.due-time-input {
+  font-size: 15px;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background: #fff;
+  transition: border 0.2s;
+  cursor: pointer;
+}
+
+.name-input:focus,
+.due-date-input:focus,
+.due-time-input:focus {
+  border: 1.5px solid #4299e1;
+  outline: none;
+}
+
+.add-todo-button {
+  background-color: #38a169;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-todo-button:hover {
+  background-color: #2f855a;
+}
+
+.delete-button {
+  background-color: #c53030;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: background 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #9b2c2c;
+}
+.todo-item {
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.todoname {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1c6fff;
+}
