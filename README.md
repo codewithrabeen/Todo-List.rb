@@ -10,3 +10,6 @@ A simple Todo List app built with JavaScript, HTML and CSS that lets users add, 
 - HTML  
 - CSS  
 - JavaScript  
+
+# Screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/784f4848-e79f-4059-8b12-259482e17743" />
